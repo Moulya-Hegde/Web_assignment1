@@ -1,0 +1,97 @@
+/* Body Background */
+body {
+    background: linear-gradient(295deg, #010c0d, #354c4e, #093c45);
+    background-size: 600% 600%;
+    -webkit-animation: AnimationName 10s ease infinite;
+    -moz-animation: AnimationName 10s ease infinite;
+    animation: AnimationName 10s ease infinite;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+/* Animation Keyframes */
+@-webkit-keyframes AnimationName {
+    0% { background-position: 0% 45%; }
+    50% { background-position: 100% 56%; }
+    100% { background-position: 0% 45%; }
+}
+
+@-moz-keyframes AnimationName {
+    0% { background-position: 0% 45%; }
+    50% { background-position: 100% 56%; }
+    100% { background-position: 0% 45%; }
+}
+
+@keyframes AnimationName {
+    0% { background-position: 0% 45%; }
+    50% { background-position: 100% 56%; }
+    100% { background-position: 0% 45%; }
+}
+
+/* Header Styling */
+header {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #046172;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #046172;
+}
+
+/* Section Styling */
+section {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+section h2 {
+    color: #8ca0a2;
+    border-bottom: 2px solid #046172;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: circle;
+    padding-left: 20px;
+}
+ul li{
+    padding-bottom: 10px;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px 0;
+    border-top: 2px solid #046172;
+    margin-top: 20px;
+}
